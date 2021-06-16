@@ -32,5 +32,5 @@ scrape_configs:
     metrics_path: '/prometheus'
     scrape_interval: 5s
     static_configs:
-    - targets: ['localhost:8080']
+    - targets: ['192.168.88.91:8080']
 
